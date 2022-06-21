@@ -1,12 +1,13 @@
 .container {
   position: relative;
-
+  background-color: #282c34;
 }
 
 
 .App {
   text-align: center;
   min-height: 100vh;
+  padding: 50px 0;
 }
 
 
