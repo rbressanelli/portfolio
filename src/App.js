@@ -8,6 +8,10 @@ import css from "./assets/css.svg"
 import javascript from "./assets/javascript.svg"
 import python from "./assets/python.svg"
 import django from "./assets/django.svg"
+import flask from './assets/flask.svg'
+import node from './assets/nodedotjs.svg'
+import heroku from './assets/heroku.svg'
+import express from './assets/express.svg'
 
 import {
   Container,
@@ -37,7 +41,9 @@ function App() {
             </p>
           </Description>
         </Section>
-        <Section>        
+        <Section>
+          <div>
+          <h2>Tecnologias</h2>
           <Tecnologies>
             <img src={react} alt="react" />
             <img src={html} alt="html" />
@@ -45,7 +51,12 @@ function App() {
             <img src={javascript} alt="javascript" />
             <img src={python} alt="python" />
             <img src={django} alt="django" />
+            <img src={flask} alt="flask" />
+            <img src={node} alt="node" />
+            <img src={heroku} alt="heroku" />
+            <img src={express} alt="express" />
           </Tecnologies>
+          </div>        
         </Section>
       </Main>
       <Footer></Footer>
