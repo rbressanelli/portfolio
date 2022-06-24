@@ -1,12 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.64204b4e.css",
-    "main.js": "/portfolio/static/js/main.6249551f.js",
+    "main.js": "/portfolio/static/js/main.f5578ef1.js",
     "static/media/geek-legends.webm": "/portfolio/static/media/geek-legends.e9269baf600015598ad7.webm",
     "static/media/space.webm": "/portfolio/static/media/space.d813cf86c6dcca4168b9.webm",
     "static/media/photo.png": "/portfolio/static/media/photo.8f4a26b7a8ef56c2f183.png",
+    "static/media/geekLegends.png": "/portfolio/static/media/geekLegends.584f080151edc727b26d.png",
+    "static/media/lig4.png": "/portfolio/static/media/lig4.796ceb6cd5c79b0770bd.png",
     "static/media/hamburger.webm": "/portfolio/static/media/hamburger.b1ca8a4c411dd5e34edb.webm",
     "static/media/lig4.webm": "/portfolio/static/media/lig4.05f51fd420834c210a10.webm",
+    "static/media/spaceFlightNews.png": "/portfolio/static/media/spaceFlightNews.99f7fb34b4fd9fa644c4.png",
+    "static/media/hamburgerShop.png": "/portfolio/static/media/hamburgerShop.2f4fef65e4a94e2c6b4b.png",
     "static/media/flask.svg": "/portfolio/static/media/flask.618a9d78aa5ce84ac678eb5d6f2127bf.svg",
     "static/media/react.svg": "/portfolio/static/media/react.aac11df9a4ec5c292c5d6c0516f77291.svg",
     "static/media/nodedotjs.svg": "/portfolio/static/media/nodedotjs.b440efce7451f3d5e3e52395e9993234.svg",
@@ -19,10 +23,10 @@
     "static/media/css.svg": "/portfolio/static/media/css.e7b554228a332077d6443c76dab4a617.svg",
     "static/media/html.svg": "/portfolio/static/media/html.554aafacf79f552e835fecac2fad1a52.svg",
     "main.64204b4e.css.map": "/portfolio/static/css/main.64204b4e.css.map",
-    "main.6249551f.js.map": "/portfolio/static/js/main.6249551f.js.map"
+    "main.f5578ef1.js.map": "/portfolio/static/js/main.f5578ef1.js.map"
   },
   "entrypoints": [
     "static/css/main.64204b4e.css",
-    "static/js/main.6249551f.js"
+    "static/js/main.f5578ef1.js"
   ]
 }
