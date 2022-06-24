@@ -1,6 +1,6 @@
 import Footer from "./components/footer";
 import Header from "./components/Header";
-import GlobalStyle from "./global";
+import { GlobalStyle } from "./global";
 import photo from "./assets/photo.png";
 import react from "./assets/react.svg";
 import html from "./assets/html.svg";
@@ -12,12 +12,10 @@ import flask from "./assets/flask.svg";
 import node from "./assets/nodedotjs.svg";
 import heroku from "./assets/heroku.svg";
 import express from "./assets/express.svg";
-import lig4 from "./assets/lig4.webm";
-import space from "./assets/space.webm";
-import hamburger from './assets/hamburger.webm'
-import geek_legends from './assets/geek-legends.webm'
+import { Lig4App, SpaceNews, Legends, Hamburger } from "./components/Aplications";
 
 import {
+  Button,
   Container,
   Description,
   ImageCard,
@@ -29,13 +27,17 @@ import {
   Tecnologies,
   VideoBackGround,
 } from "./styles";
+import { useState } from "react";
+import InfoModal from "./components/InfoModal";
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <Container>
       <GlobalStyle />
       <Header />
-      <Main>
+      <Main>        
         <Section>
           <ImageCard>
             <img src={photo} alt="roberto" />
@@ -126,44 +128,16 @@ function App() {
         <Section>
           <Projects>
             <h2>Projetos</h2>
-            <div id='projects-container'>
-
-              <ProjectCard>
-                <h3>Game Lig4</h3>
-                <VideoBackGround autoPlay loop muted id="video">
-                  <source src={lig4} type="video/webm" />
-                </VideoBackGround>
-                <LinkDeploy >site</LinkDeploy>
-              </ProjectCard>
-
-              <ProjectCard>
-                <h3>Space Flight News</h3>
-                <VideoBackGround autoPlay loop muted id="video">
-                  <source src={space} type="video/webm" />
-                </VideoBackGround>
-                <LinkDeploy >site</LinkDeploy>
-              </ProjectCard>
-
-              <ProjectCard>
-                <h3>Hamburger Shop</h3>
-                <VideoBackGround autoPlay loop muted id="video">
-                  <source src={hamburger} type="video/webm" />
-                </VideoBackGround>
-                <LinkDeploy >site</LinkDeploy>
-              </ProjectCard>
-              
-              <ProjectCard>
-                <h3>Geek Legends</h3>
-                <VideoBackGround autoPlay loop muted id="video">
-                  <source src={geek_legends} type="video/webm" />
-                </VideoBackGround>
-                <LinkDeploy >site</LinkDeploy>
-              </ProjectCard>
-
+            <div id="projects-container">
+              <Lig4App />
+              <SpaceNews />
+              <Legends />
+              <Hamburger />
             </div>
           </Projects>
         </Section>
       </Main>
+
       <Footer></Footer>
     </Container>
   );

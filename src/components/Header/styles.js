@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
     background: #9b9ba6;
     background: linear-gradient(90deg, #9b9ba6 0%, #0d0f14 80%);
     background: -webkit-linear-gradient(90deg, #9b9ba6 0%, #0d0f14 80%);
@@ -17,11 +17,11 @@ export const Container = styled.header`
     z-index: 2;
 
     h1 {
-        color: var(--text-color);
+        width: 100%;       
         text-align: center;
         font-size: 25px;
-        /* padding: 30px 0 30px 40px; */
-        margin: 0;
+        padding: 20px 0 20px;
+        margin: 0 auto;
         text-shadow: 0px 1px 28px rgba(255, 255, 255, 1);
 
         @media only screen and (min-width: 400px) {

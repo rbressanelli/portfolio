@@ -1,18 +1,32 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
   background-color: #f4f5f5;
+
+  @media only screen and (min-width: 600px) {
+  }
 `;
 
 export const Main = styled.main`
   text-align: center;
   min-height: 100vh;
-  padding: 50px 0;
+  padding: 100px 0;
 `;
 
 export const Section = styled.section`
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+
+  @media only screen and (min-width: 600px) {
+    justify-content: center;
+    flex-direction: row;
+    /* align-items: center; */
+  }
 `;
 
 export const ImageCard = styled.div`
@@ -45,9 +59,15 @@ export const Description = styled.div`
 `;
 
 export const Tecnologies = styled.div`
+  max-width: 400px;
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+
+  @media only screen and (min-width: 800px) {
+    max-width: 100%;
+  }
 
   img {
     width: 50px;
@@ -64,7 +84,7 @@ export const Tecnologies = styled.div`
 `;
 
 export const VideoBackGround = styled.video`
-  width: 200px;
+  width: 100%;
   object-fit: cover;
 `;
 
@@ -74,11 +94,22 @@ export const Projects = styled.div`
 
   div#projects-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
+    @media only screen and (min-width: 600px) {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    @media only screen and (min-width: 768px) {
+      flex-direction: row;
+    }
   }
 `;
 
 export const ProjectCard = styled.div`
+  max-width: 250px;
   margin: 20px;
   padding: 10px;
   border: 2px solid #000;
@@ -92,7 +123,7 @@ export const ProjectCard = styled.div`
 `;
 
 export const LinkDeploy = styled.button`
-  margin: 20px 0;
+  margin: 5px 0;
   width: 100%;
   height: 30px;
   border: transparent;
@@ -109,7 +140,7 @@ export const LinkDeploy = styled.button`
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: #EBEBEB;
+  color: #ebebeb;
   box-shadow: 0 0 15px 0px #868b8e;
   display: block;
 
@@ -118,4 +149,14 @@ export const LinkDeploy = styled.button`
     color: #fff;
     text-decoration: none;
   }
+`;
+
+export const Button = styled.button`
+  margin: 5px 0;
+  width: 100%;
+  height: 30px;
+  padding: 2px;
+  /* border: transparent; */
+  border-radius: 5px;
+  font-size: 20px;
 `;
