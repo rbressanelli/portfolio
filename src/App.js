@@ -12,7 +12,7 @@ import flask from "./assets/flask.svg";
 import node from "./assets/nodedotjs.svg";
 import heroku from "./assets/heroku.svg";
 import express from "./assets/express.svg";
-import { Lig4App, SpaceNews, Legends, Hamburger } from "./components/Aplications";
+import { Lig4App, SpaceNews, Legends, Hamburger, VintageRentals, CarRentals, Leads, Crud } from "./components/Aplications";
 
 import {
   Button,
@@ -133,6 +133,10 @@ function App() {
               <SpaceNews />
               <Legends />
               <Hamburger />
+              <VintageRentals />
+              <CarRentals />
+              <Leads />
+              <Crud />
             </div>
           </Projects>
         </Section>

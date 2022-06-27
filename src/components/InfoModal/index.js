@@ -3,16 +3,14 @@ import lig4 from "../../assets/lig4.png";
 import space from '../../assets/spaceFlightNews.png'
 import hamburger from '../../assets/hamburgerShop.png'
 import geek from '../../assets/geekLegends.png'
-import { lig4Text, spaceText, hamburgerText, legendsText } from "./infoText";
+import vintage from '../../assets/vintage.png'
+import car from '../../assets/car.png'
+import leads from '../../assets/leads.png'
+import crud from '../../assets/crud.png'
+import { lig4Text, spaceText, hamburgerText, legendsText, vintageText, carText, leadsText, crudText } from "./infoText";
 
 const InfoModal = ({ show, handleClick, app }) => {
-  let infoToShow = {
-    
-
-    space: "Space flight news",
-    legends: 'Legends',
-    hamburger: 'Hamburger'
-  };
+  
 
   return (
     <>
@@ -36,11 +34,38 @@ const InfoModal = ({ show, handleClick, app }) => {
             <p>{legendsText.text1}</p>
             <p>{legendsText.text2}</p>
           </Container>
-        ) : (
+        ) : app === 'hamburger' ? (
           <Container>
             <img src={hamburger} alt="" />
             <p>{hamburgerText.text1}</p>
             <p>{hamburgerText.text2}</p>
+          </Container>
+        ) : app === 'vintage' ? (
+          <Container>
+            <img src={vintage} alt="" />
+            <p>{vintageText.text1}</p>
+            <p>{vintageText.text2}</p>
+          </Container>
+        ) : app === 'car' ? (
+          <Container>
+            <img src={car} alt="" />
+            <p>{carText.text1}</p>
+            <p>{carText.text2}</p>
+          </Container>
+        ) : app === 'leads' ? (
+          <Container>
+            <img src={leads} alt="" />
+            <p>{leadsText.text1}</p>
+            <p>{leadsText.text2}</p>
+          </Container>
+        ) :
+        (
+          <Container>
+            <img src={crud} alt="" />
+            <p>{crudText.text1}</p>
+            <p>{crudText.text2}</p>
+            <p>{crudText.text3}</p>
+
           </Container>
         )}
         <Button onClick={() => handleClick(!show)}>fechar</Button>

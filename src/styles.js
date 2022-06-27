@@ -88,6 +88,11 @@ export const VideoBackGround = styled.video`
   object-fit: cover;
 `;
 
+export const ImageBackground = styled.img`
+  width: 100%;
+  object-fit: cover;
+`
+
 export const Projects = styled.div`
   display: flex;
   flex-direction: column;
