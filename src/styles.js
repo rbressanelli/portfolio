@@ -28,12 +28,13 @@ export const Section = styled.section`
     border-left: 1px solid #00024c;
     border-top: 1px solid #00024c;
     border-top-left-radius: 10px;
-    cursor: pointer;    
+    cursor: pointer; 
+
+    :hover {
+      background-color: #eee;
+    }
   }
 
-  & > :hover {
-    background-color: #eee;
-  }
 
   @media only screen and (min-width: 600px) {
     justify-content: center;
