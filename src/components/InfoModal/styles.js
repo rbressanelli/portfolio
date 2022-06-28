@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Modal = styled.div`    
-    top: 20%;
+    top: 10%;
     min-width: 90vw;
     position: fixed;
     background: rgba(251, 248, 239, 1);
@@ -37,7 +37,9 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 30px 0;
-    
+
+    overflow: auto;
+    height: auto;   
 
     & > img {
         width: 200px;
@@ -57,7 +59,7 @@ export const Container = styled.div`
     & > p {
         max-width: 250px;
         text-align: justify;
-        margin: 5px 0;
+        margin: 5px 0;        
 
         @media only screen and (min-width: 400px) {
             max-width: 350px;

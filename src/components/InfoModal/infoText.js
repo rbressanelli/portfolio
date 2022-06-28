@@ -33,11 +33,11 @@ export const carText = {
 
 export const leadsText = {
     text1: 'Aplicação para controle de Leads, que são pessoas que podem estar interessadas em algum tipo de produto ou serviço. Esses possíveis futuros clientes podem ser coletados através de preenchimento de formulários ou cliques em páginas da internet, os dados geralmente são utilizados em campanhas publicitárias.',
-    text2: 'CRUD desenvolvido em Python, Flask, SQLAlchemy e Psycopg2. Projeto de Back end implementado durante o curso da Kenzie Academy Brasil. '
+    text2: 'CRUD desenvolvido em Python, Flask, SQLAlchemy e Psycopg2. Projeto de Back end implementado durante o Q3 do curso da Kenzie Academy Brasil. '
 }
 
 
 export const crudText = {
     text1: 'Este aplicativo trata-se de um CRUD de usuário. Em um CRUD podemos cadastrar, listar, atualizar e deletar os dados de um usuário ou qualquer outro tipo de registro que o aplicativo necessite.',
-    text2: 'Projeto de Back end realizado como uma das atividades do curso da Kenzie Academy Brasil, utilizando NodeJS, ExpressJS, Typescript, TypeORM, Jasonwebtoken e validaçãodos dados com Yup.'
+    text2: 'Projeto de Back end realizado como uma das atividades do curso da Kenzie Academy Brasil, utilizando NodeJS, Express, Typescript, TypeORM, JasonWebToken e validação dos dados com Yup.'
 }

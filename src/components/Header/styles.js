@@ -2,21 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.header`
     width: 100%;
-    /* height: 50px; */
-    background: #9b9ba6;
-    background: linear-gradient(90deg, #9b9ba6 0%, #0d0f14 80%);
-    background: -webkit-linear-gradient(90deg, #9b9ba6 0%, #0d0f14 80%);
-    background: -moz-linear-gradient(90deg, #9b9ba6 0%, #0d0f14 80%);
+    background: #00024c;
 
-    box-shadow: 0px 9px 10px -4px rgba(0, 0, 0, 0.7);
-    -webkit-box-shadow: 0px 9px 10px -4px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 0px 9px 10px -4px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 9px 10px -4px rgba(0,2,76,0.7);
+    -webkit-box-shadow: 0px 9px 10px -4px rgba(0,2,76,0.7);
+    -moz-box-shadow: 0px 9px 10px -4px rgba(0,2,76,0.7);
 
     position: fixed;
     top: 0;
     z-index: 2;
 
     h1 {
+        color: #f5f5f5;
         width: 100%;       
         text-align: center;
         font-size: 25px;

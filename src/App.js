@@ -2,42 +2,48 @@ import Footer from "./components/footer";
 import Header from "./components/Header";
 import { GlobalStyle } from "./global";
 import photo from "./assets/photo.png";
-import react from "./assets/react.svg";
-import html from "./assets/html.svg";
-import css from "./assets/css.svg";
-import javascript from "./assets/javascript.svg";
-import python from "./assets/python.svg";
-import django from "./assets/django.svg";
-import flask from "./assets/flask.svg";
-import node from "./assets/nodedotjs.svg";
-import heroku from "./assets/heroku.svg";
-import express from "./assets/express.svg";
-import { Lig4App, SpaceNews, Legends, Hamburger, VintageRentals, CarRentals, Leads, Crud } from "./components/Aplications";
+import dio from "./assets/dio.png";
+import front from "./assets/frontend.jpg";
+import fullstack from "./assets/fullstack.png";
+import eng from "./assets/eng.png";
+import {
+  Lig4App,
+  SpaceNews,
+  Legends,
+  Hamburger,
+  VintageRentals,
+  CarRentals,
+  Leads,
+  Crud,
+} from "./components/Aplications";
 
 import {
-  Button,
+  Certificates,
   Container,
   Description,
+  // Experience,
+  Formation,
   ImageCard,
-  LinkDeploy,
   Main,
-  ProjectCard,
   Projects,
+  // Qualification,
   Section,
-  Tecnologies,
-  VideoBackGround,
+  VerticalSpace,
 } from "./styles";
 import { useState } from "react";
-import InfoModal from "./components/InfoModal";
+import Technologies from "./components/Technologies";
+import Qualification from "./components/Qualification";
+import Experience from "./components/Experience";
 
 function App() {
-  const [showModal, setShowModal] = useState(false);
+  const [showQualiDiv, setShowQualiDiv] = useState(false);
+  const [showExpDiv, setShowExpDiv] = useState(false);
 
   return (
     <Container>
       <GlobalStyle />
       <Header />
-      <Main>        
+      <Main>
         <Section>
           <ImageCard>
             <img src={photo} alt="roberto" />
@@ -51,80 +57,53 @@ function App() {
             </p>
           </Description>
         </Section>
+        <VerticalSpace />
+        <Section>
+          <div>
+            <h1>Formação</h1>
+            <Formation>
+              <p>
+                Formação superior em Engenharia Eletrônica pela Universidade
+                Veiga de Almeida e em junho de 2022 concluí minha formação em
+                Desenvolvedor Web Full Stack pela Kenzie Academy Brasil.
+              </p>
+            </Formation>
+            <div>
+              <h1>Certificados</h1>
+              <Certificates>
+                <img src={dio} alt="" />
+                <img src={front} alt="" />
+                <img src={fullstack} alt="" />
+                <img src={eng} alt="" />
+              </Certificates>
+            </div>
+          </div>
+        </Section>
+        <VerticalSpace />
+        <Section>
+          <h1
+            style={{ boxShadow: showQualiDiv ? "-2px -2px 4px rgba(0,2,76,0.7)" : "" }}
+            onClick={() => setShowQualiDiv(showExpDiv ? null : !showQualiDiv)}
+          >
+            Qualificações
+          </h1>
+          <h1
+            style={{ boxShadow: showExpDiv ? "-2px -2px 4px rgba(0,2,76,0.7)" : "" }}
+            onClick={() => setShowExpDiv(showQualiDiv ? null : !showExpDiv)}
+          >
+            Experiência Profissional
+          </h1>
+        </Section>
+        <Qualification showQualiDiv={showQualiDiv} />
+        <Experience showExpDiv={showExpDiv} />
+        <VerticalSpace />
         <Section>
           <div>
             <h2>Tecnologias</h2>
-            <Tecnologies>
-              <a
-                href="https://pt-br.reactjs.org/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={react} alt="react" />
-              </a>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={html} alt="html" />
-              </a>
-
-              <a
-                href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={css} alt="css" />
-              </a>
-              <a
-                href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={javascript} alt="javascript" />
-              </a>
-              <a
-                href="https://www.python.org/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={python} alt="python" />
-              </a>
-              <a
-                href="https://www.djangoproject.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={django} alt="django" />
-              </a>
-              <a
-                href="https://flask.palletsprojects.com/en/2.1.x/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={flask} alt="flask" />
-              </a>
-              <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
-                <img src={node} alt="node" />
-              </a>
-              <a
-                href="https://dashboard.heroku.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={heroku} alt="heroku" />
-              </a>
-              <a
-                href="https://expressjs.com/pt-br/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={express} alt="express" />
-              </a>
-            </Tecnologies>
+            <Technologies />
           </div>
         </Section>
+        <VerticalSpace />
         <Section>
           <Projects>
             <h2>Projetos</h2>

@@ -5,7 +5,7 @@ import {
   ProjectCard,
   VideoBackGround,
   ImageBackground,
-} from "../../styles";
+} from "./styles";
 import lig4 from "../../assets/lig4.webm";
 import space from "../../assets/space.webm";
 import legends from "../../assets/geek-legends.webm";
