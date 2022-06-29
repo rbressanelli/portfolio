@@ -1,5 +1,4 @@
-import Footer from "./components/footer";
-import Header from "./components/Header";
+import { useState } from "react";
 import { GlobalStyle } from "./global";
 import photo from "./assets/photo.png";
 import dio from "./assets/dio.png";
@@ -16,6 +15,11 @@ import {
   Leads,
   Crud,
 } from "./components/Aplications";
+import Footer from "./components/footer";
+import Header from "./components/Header";
+import Technologies from "./components/Technologies";
+import Qualification from "./components/Qualification";
+import Experience from "./components/Experience";
 
 import {
   Certificates,
@@ -28,10 +32,6 @@ import {
   Section,
   VerticalSpace,
 } from "./styles";
-import { useState } from "react";
-import Technologies from "./components/Technologies";
-import Qualification from "./components/Qualification";
-import Experience from "./components/Experience";
 
 function App() {
   const [showQualiDiv, setShowQualiDiv] = useState(false);

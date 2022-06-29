@@ -23,7 +23,6 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 600px) {
-    /* justify-content: center; */
     max-width: 90%;
   }
 

@@ -1,4 +1,3 @@
-import { Modal, Container, Button } from "./styles";
 import lig4 from "../../assets/lig4.png";
 import space from "../../assets/spaceFlightNews.png";
 import hamburger from "../../assets/hamburgerShop.png";
@@ -17,6 +16,7 @@ import {
   leadsText,
   crudText,
 } from "./infoText";
+import { Modal, Container, Button } from "./styles";
 
 const InfoModal = ({ show, handleClick, app }) => {
   return (

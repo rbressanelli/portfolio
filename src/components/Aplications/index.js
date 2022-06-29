@@ -1,11 +1,5 @@
+import { useState } from "react";
 import { AiOutlineGithub } from "react-icons/ai";
-import {
-  Button,
-  LinkDeploy,
-  ProjectCard,
-  VideoBackGround,
-  ImageBackground,
-} from "./styles";
 import lig4 from "../../assets/lig4.webm";
 import space from "../../assets/space.webm";
 import legends from "../../assets/geek-legends.webm";
@@ -14,8 +8,14 @@ import vintage from "../../assets/vintage.png";
 import car from "../../assets/car.png";
 import leads from '../../assets/leads.png'
 import crud from '../../assets/crud.png'
-import { useState } from "react";
 import InfoModal from "../InfoModal";
+import {
+  Button,
+  LinkDeploy,
+  ProjectCard,
+  VideoBackGround,
+  ImageBackground,
+} from "./styles";
 
 const Lig4App = () => {
   const [showModal, setShowModal] = useState(false);

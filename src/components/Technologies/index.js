@@ -1,4 +1,3 @@
-import { Container } from "./styles";
 import react from "../../assets/react.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
@@ -9,6 +8,7 @@ import flask from "../../assets/flask.svg";
 import node from "../../assets/nodedotjs.svg";
 import heroku from "../../assets/heroku.svg";
 import express from "../../assets/express.svg";
+import { Container } from "./styles";
 
 const Technologies = () => {
   return (

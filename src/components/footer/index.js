@@ -1,6 +1,6 @@
-import { Container } from "./styles";
 import { BsLinkedin, BsFacebook, BsGithub } from "react-icons/bs";
 import { AiOutlineMail } from 'react-icons/ai'
+import { Container } from "./styles";
 
 const Footer = () => {
   return (

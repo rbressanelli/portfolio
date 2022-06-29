@@ -3,10 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #f4f5f5;
-
-  @media only screen and (min-width: 600px) {
-  }
+  background-color: #f4f5f5;  
 `;
 
 export const Main = styled.main`
@@ -34,7 +31,6 @@ export const Section = styled.section`
       background-color: #eee;
     }
   }
-
 
   @media only screen and (min-width: 600px) {
     justify-content: center;
