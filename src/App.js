@@ -21,12 +21,10 @@ import {
   Certificates,
   Container,
   Description,
-  // Experience,
   Formation,
   ImageCard,
   Main,
   Projects,
-  // Qualification,
   Section,
   VerticalSpace,
 } from "./styles";
@@ -43,18 +41,29 @@ function App() {
     <Container>
       <GlobalStyle />
       <Header />
+
       <Main>
         <Section>
           <ImageCard>
             <img src={photo} alt="roberto" />
           </ImageCard>
           <Description>
+            <h1>
+              Bem vindo a minha página!
+            </h1> 
+            <h3>
+              Sobre mim:  
+            </h3>
+            <p>
+              Tenho 52 anos, Trekker de carteirinha, gosto de filmes e séries bem como de um choppinho com os amigos! 
+            </p>
             <p>
               Apaixonado por tecnologia, curioso e em busca de novos desafios,
               concluí recentemente o curso de Desenvolvedor Web Full Stack e
               estou pronto para contribuir nesta área tão promissora e presente
               na vida de todos.
-            </p>
+            </p>  
+            <p id='contact'><a href='#nav' >entre em contato</a></p>        
           </Description>
         </Section>
         <VerticalSpace />
@@ -63,18 +72,22 @@ function App() {
             <h1>Formação</h1>
             <Formation>
               <p>
-                Formação superior em Engenharia Eletrônica pela Universidade
-                Veiga de Almeida e em junho de 2022 concluí minha formação em
-                Desenvolvedor Web Full Stack pela Kenzie Academy Brasil.
+                Engenharia Eletrônica - Universidade Veiga de Almeida - 2008 
+              </p>
+              <p>
+                MBA Petróleo e Gás - Universidade Veiga de Almeida - 2011 
+              </p>
+              <p>
+                Desenvolvedor Web Full Stack - Kenzie Academy Brasil - 2022
               </p>
             </Formation>
             <div>
               <h1>Certificados</h1>
               <Certificates>
-                <img src={dio} alt="" />
-                <img src={front} alt="" />
-                <img src={fullstack} alt="" />
-                <img src={eng} alt="" />
+                <img src={dio} alt="certificado dio" />
+                <img src={front} alt="certificado kenzie front" />
+                <img src={fullstack} alt="certificado kenzie full" />
+                <img src={eng} alt="diploma engenharia" />
               </Certificates>
             </div>
           </div>

@@ -6,7 +6,7 @@ const Experience = ({showExpDiv}) => {
         <Container display={showExpDiv}>
           <h3>Empresa: Kenzie Academy Brasil</h3>
           <h4>
-            Função: <spam>Peer Coach</spam>
+            Função: <spam>Peer Coach</spam> - jun/2022 - atual
           </h4>
           <ul>
             <li>Correção das atividades entregues pelos alunos;</li>
@@ -17,7 +17,7 @@ const Experience = ({showExpDiv}) => {
           </ul>
           <h3>Empresa: INLAC BRASIL</h3>
           <h4>
-            Função: <spam>Técnico de Certificação</spam>
+            Função: <spam>Técnico de Certificação</spam> - jun/2010 - fev/2020
           </h4>
           <ul>
             <li>
@@ -31,7 +31,7 @@ const Experience = ({showExpDiv}) => {
           </ul>
           <h3>Empresa: In-Dermo Ind. e Com. Ltda.</h3>
           <h4>
-            Função: <spam>Técnico em Eletrônica / Coord. de Produção</spam>
+            Função: <spam>Técnico em Eletrônica / Coord. de Produção</spam> - mai/1998 - ago/2009
           </h4>
           <ul>
             <li>Realização de Auditorias Internas;</li>

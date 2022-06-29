@@ -13,8 +13,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    padding: 20px 10px;
-    list-style: none;
+    padding: 20px 30px;
     line-height: 1.5;
 
     box-shadow: 0px 0px 5px rgba(0,2,76,0.7);
@@ -28,12 +27,16 @@ export const Container = styled.div`
   }
 
   & > ul > li {
-    max-width: 280px;
+    max-width: 290px;
     text-align: justify;
     margin: 0 5px;
 
     @media only screen and (min-width: 600px) {
       max-width: 600px;
+    }
+
+    @media only screen and (min-width: 800px) {
+      max-width: 780px;
     }
   }
 `;

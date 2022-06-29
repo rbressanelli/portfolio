@@ -66,9 +66,31 @@ export const ImageCard = styled.div`
 export const Description = styled.div`
   padding: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 400px;
+
+  & > h1 {
+    margin-bottom: 10px;
+  }
+
+  & > p {
+    margin: 5px 0;
+    text-align: justify;
+  }
+
+  & > p#contact > a {
+    font-size: 1.2rem;
+    font-variant: small-caps;
+    color: #00024c;
+    padding: 1px 10px 2px;
+
+    :hover {
+      background-color: #00024c;
+      color: #fff;
+    }
+  }
 `;
 
 export const Projects = styled.div`
@@ -94,10 +116,15 @@ export const Projects = styled.div`
 export const Formation = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   max-width: 300px;
   padding: 10px;
-  margin: 20px 0;
+  margin: 20px auto;
   text-align: justify;
+
+  & > p {
+    margin: 5px 0;
+  } 
 
   @media only screen and (min-width: 400px) {
     max-width: 380px;

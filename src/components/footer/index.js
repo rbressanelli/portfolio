@@ -4,7 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <Container>
+    <Container id='nav'>
       <nav>
         <a href="https://github.com/rbressanelli">
           <BsGithub />
