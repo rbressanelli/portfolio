@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const Modal = styled.div`
-  top: 10%;
+  top: 15%;
+  left: 5vw;
   min-width: 90vw;
+  max-height: 80vh;
   position: fixed;
   background: rgba(251, 248, 239, 1);
   display: flex;
@@ -15,6 +17,26 @@ export const Modal = styled.div`
   font-size: 18px;
   box-shadow: 1px 1px 20px 5px #0a0a0a;
   z-index: 1;
+  overflow: auto;
+
+  & > ::-webkit-scrollbar {    
+    width: 5px;    
+  }
+
+  & > ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px #00024c;
+    border-radius: 10px;
+    
+  }
+  
+  & > ::-webkit-scrollbar-thumb {
+    background: #00024c;
+    border-radius: 10px;
+  }
+
+  & > ::-webkit-scrollbar-thumb:hover {
+    background: #00024c;
+  }
 
   @media only screen and (min-width: 400px) {
     min-width: 380px;
@@ -24,7 +46,6 @@ export const Modal = styled.div`
   @media only screen and (min-width: 600px) {
     left: 50vw;
     transform: translateX(-50%);
-    /* max-height: 55vh; */
   }
 
   @media only screen and (min-width: 800px) {
@@ -59,7 +80,8 @@ export const Container = styled.div`
   & > p {
     max-width: 250px;
     text-align: justify;
-    margin: 5px 0;
+    margin: 5px;
+    
 
     @media only screen and (min-width: 400px) {
       max-width: 350px;
