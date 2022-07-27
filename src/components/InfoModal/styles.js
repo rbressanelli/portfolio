@@ -20,12 +20,13 @@ export const Modal = styled.div`
   overflow: auto;
 
   & > ::-webkit-scrollbar {    
-    width: 5px;    
+    width: 5px; 
   }
 
   & > ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 8px #00024c;
     border-radius: 10px;
+    margin: 230px 0 0 0;
     
   }
   
@@ -64,7 +65,7 @@ export const Container = styled.div`
 
   & > img {
     width: 200px;
-    margin: 20px 0;
+    margin: 20px 5px;
     border-radius: 5px;
     box-shadow: 1px 1px 20px 5px #ccc;
 
@@ -81,6 +82,7 @@ export const Container = styled.div`
     max-width: 250px;
     text-align: justify;
     margin: 5px;
+    padding: 0 10px;
     
 
     @media only screen and (min-width: 400px) {

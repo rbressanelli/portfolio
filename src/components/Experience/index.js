@@ -5,7 +5,7 @@ const Experience = ({ showExpDiv }) => {
     <Container display={showExpDiv}>
       <h3>Empresa: Kenzie Academy Brasil</h3>
       <h4>
-        Função: <spam>Peer Coach M5</spam> - jun/2022 - atual
+        Função: <spam>Peer Coach M5 (Monitoria)</spam> - jun/2022 - atual
       </h4>
       <ul>
         <li>Correção de atividades dos alunos;</li>
