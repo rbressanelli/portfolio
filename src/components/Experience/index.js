@@ -3,9 +3,17 @@ import { Container } from "./styles";
 const Experience = ({ showExpDiv }) => {
   return (
     <Container display={showExpDiv}>
+      <h3>Empresa: Brilliant Machine</h3>
+      <h4>
+        Função: <spam>Desenvolvedor Python Pleno</spam> - ago/2022 - atual
+      </h4>
+      <ul>
+        <li>Desenvolvimento de aplicação full stack em Python/Django;</li>
+        <li>Programação em Python.</li>
+      </ul>
       <h3>Empresa: Kenzie Academy Brasil</h3>
       <h4>
-        Função: <spam>Peer Coach M5 (Monitoria)</spam> - jun/2022 - atual
+        Função: <spam>Peer Coach M5 (Monitoria)</spam> - jun/2022 - ago/2022
       </h4>
       <ul>
         <li>Correção de atividades dos alunos;</li>
