@@ -18,6 +18,8 @@ export const hamburgerText = {
     "Plataforma que simula um e-comerce de fast-food onde um cliente cadastrado e logado pode simular as compras e verificar seu carrinho com os itens adicionados.",
   text2:
     "Aplicativo realizado utilizando ReactJS, Typescript, MaterialUI e ContextAPI.",
+  text3:
+    "Devido as novas políticas do heroku o site não funcionará mais até que a situação seja remediada."
 };
 
 export const legendsText = {

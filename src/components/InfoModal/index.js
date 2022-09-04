@@ -46,6 +46,7 @@ const InfoModal = ({ show, handleClick, app }) => {
             <img src={hamburger} alt="" />
             <p>{hamburgerText.text1}</p>
             <p>{hamburgerText.text2}</p>
+            <p>{hamburgerText.text3}</p>
           </Container>
         ) : app === "vintage" ? (
           <Container>
