@@ -55,12 +55,12 @@ function App() {
               Sobre mim:  
             </h3>
             <p>
-              Tenho 52 anos, Trekker de carteirinha, gosto de filmes e séries bem como de um choppinho com os amigos! 
+              Tenho 53 anos, Trekker de carteirinha, gosto de filmes e séries bem como de um choppinho com os amigos! 
             </p>
             <p>
               Apaixonado por tecnologia, curioso e em busca de novos desafios,
-              concluí recentemente o curso de Desenvolvedor Web Full Stack e
-              estou pronto para contribuir nesta área tão promissora e presente
+              após a conclusão do curso de Desenvolvedor Web Full Stack considero-me
+              pronto para contribuir nesta área tão promissora e presente
               na vida de todos.
             </p>  
             <p id='contact'><a href='#nav' >entre em contato</a></p>        

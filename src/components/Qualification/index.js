@@ -5,10 +5,10 @@ const Qualification = ({ showQualiDiv }) => {
     <Container display={showQualiDiv}>
       <ul>
         <li>
-          Habilidade e experiência em HTML, CSS, JavaSript, React, Python;
+          Habilidade e experiência em HTML, CSS, JavaSript, Python e Django;
         </li>
         <li>
-          Habilidade em Linux, Git, TypeScript, Flask, Django, MongoDB,
+          Habilidade em Linux, Git, Flask, 
           PostgreSQL, SQLAlchemy adquirida através de atividades desenvolvidas
           no curso da Kenzie Academy Brasil;
         </li>
