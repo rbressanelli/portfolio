@@ -143,9 +143,8 @@ const Hamburger = () => {
           <source src={hamburger} type="video/webm" />
         </VideoBackGround>
         <LinkDeploy
-          disabled
           onClick={() =>
-            window.location.assign("https://hamburger-shop.vercel.app/")
+            window.location.assign("https://hamburger-shop-rbressanelli.vercel.app/")
           }
         >
           site

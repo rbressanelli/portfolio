@@ -19,7 +19,7 @@ export const hamburgerText = {
   text2:
     "Aplicativo realizado utilizando ReactJS, Typescript, MaterialUI e ContextAPI.",
   text3:
-    "Devido as novas políticas do heroku o site não funcionará mais até que a situação seja remediada."
+    "O deploy da API foi feita no Railway."
 };
 
 export const legendsText = {
