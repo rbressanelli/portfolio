@@ -1,6 +1,6 @@
 import lig4 from "../../assets/lig4.png";
 import space from "../../assets/spaceFlightNews.png";
-import hamburger from "../../assets/hamburgerShop.png";
+import shop from "../../assets/shop-cart.png";
 import geek from "../../assets/geekLegends.png";
 import vintage from "../../assets/vintage.png";
 import car from "../../assets/car.png";
@@ -9,7 +9,7 @@ import crud from "../../assets/crud.png";
 import {
   lig4Text,
   spaceText,
-  hamburgerText,
+  shopText,
   legendsText,
   vintageText,
   carText,
@@ -41,12 +41,12 @@ const InfoModal = ({ show, handleClick, app }) => {
             <p>{legendsText.text1}</p>
             <p>{legendsText.text2}</p>
           </Container>
-        ) : app === "hamburger" ? (
+        ) : app === "shop" ? (
           <Container>
-            <img src={hamburger} alt="" />
-            <p>{hamburgerText.text1}</p>
-            <p>{hamburgerText.text2}</p>
-            <p>{hamburgerText.text3}</p>
+            <img src={shop} alt="" />
+            <p>{shopText.text1}</p>
+            <p>{shopText.text2}</p>
+            <p>{shopText.text3}</p>
           </Container>
         ) : app === "vintage" ? (
           <Container>

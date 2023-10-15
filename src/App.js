@@ -9,7 +9,7 @@ import {
   Lig4App,
   SpaceNews,
   Legends,
-  Hamburger,
+  Shop,
   VintageRentals,
   CarRentals,
   Leads,
@@ -55,7 +55,7 @@ function App() {
               Sobre mim:  
             </h3>
             <p>
-              Tenho 53 anos, Trekker de carteirinha, gosto de filmes e séries bem como de um choppinho com os amigos! 
+              Tenho 54 anos, Trekker de carteirinha, gosto de filmes e séries bem como de um choppinho com os amigos! 
             </p>
             <p>
               Apaixonado por tecnologia, curioso e em busca de novos desafios,
@@ -124,7 +124,7 @@ function App() {
               <Lig4App />
               <SpaceNews />
               <Legends />
-              <Hamburger />
+              <Shop />
               <VintageRentals />
               <CarRentals />
               <Leads />

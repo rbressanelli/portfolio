@@ -9,6 +9,7 @@ const Experience = ({ showExpDiv }) => {
       </h4>
       <ul>
         <li>Desenvolvimento do Sistema de Gestão de Licenciamento Ambiental em Python/Django no Instituto Estadual do Ambiente - INEA-RJ;</li>
+        <li>Desenvolvimento do Sistema do Programa Estadual de Autocontrole de Efluentes Líquidos - Procon Água, no Instituto Estadual do Ambiente - INEA-RJ;</li>
         <li>Programação em Python, Django, HTML, CSS e Javascript.</li>
         <li>Desenvolvimento do hotsite <a href="http://www.inea.rj.gov.br/riocop15/" target="_blank" rel="noreferrer">COP-15</a></li>
       </ul>

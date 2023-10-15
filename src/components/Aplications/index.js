@@ -3,7 +3,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import lig4 from "../../assets/lig4.webm";
 import space from "../../assets/space.webm";
 import legends from "../../assets/geek-legends.webm";
-import hamburger from "../../assets/hamburger.webm";
+import shop from "../../assets/shop.webm"
 import vintage from "../../assets/vintage.png";
 import car from "../../assets/car.png";
 import leads from '../../assets/leads.png'
@@ -127,24 +127,24 @@ const Legends = () => {
   );
 };
 
-const Hamburger = () => {
+const Shop = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
     <>
       <InfoModal
-        app={"hamburger"}
+        app={"shop"}
         show={showModal}
         handleClick={setShowModal}
       />
       <ProjectCard>
-        <h3>Hamburger Shop</h3>
+        <h3>Shop Cart</h3>
         <VideoBackGround autoPlay loop muted id="video">
-          <source src={hamburger} type="video/webm" />
+          <source src={shop} type="video/webm" />
         </VideoBackGround>
         <LinkDeploy
           onClick={() =>
-            window.location.assign("https://hamburger-shop-rbressanelli.vercel.app/")
+            window.location.assign("https://shop-cart-gold.vercel.app/")
           }
         >
           site
@@ -152,7 +152,7 @@ const Hamburger = () => {
         <Button
           onClick={() =>
             window.location.assign(
-              "https://github.com/rbressanelli/hamburger-shop"
+              "https://github.com/rbressanelli/shop-cart"
             )
           }
           disabled={showModal}
@@ -313,7 +313,7 @@ export {
   Lig4App,
   SpaceNews,
   Legends,
-  Hamburger,
+  Shop,
   VintageRentals,
   CarRentals,
   Leads,

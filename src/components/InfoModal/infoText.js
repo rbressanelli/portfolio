@@ -13,13 +13,11 @@ export const spaceText = {
     "Projeto realizado utilizando ReactJS, MaterialUI, ContextAPI e testes implementados utilizando o Cypress.",
 };
 
-export const hamburgerText = {
+export const shopText = {
   text1:
-    "Plataforma que simula um e-comerce de fast-food onde um cliente cadastrado e logado pode simular as compras e verificar seu carrinho com os itens adicionados.",
+    "Plataforma que simula um carrinho de e-comerce de venda de automóveis.",
   text2:
-    "Aplicativo realizado utilizando ReactJS, Typescript, MaterialUI e ContextAPI.",
-  text3:
-    "O deploy da API foi feita no Railway."
+    "Aplicativo realizado utilizando ReactJS, Styled COmponents, Redux e Redux Thunk.",
 };
 
 export const legendsText = {
