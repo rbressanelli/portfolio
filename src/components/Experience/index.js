@@ -8,6 +8,9 @@ const Experience = ({ showExpDiv }) => {
         Função: <spam>Desenvolvedor Python Pleno</spam> - ago/2022 - atual
       </h4>
       <ul>
+        <li>Desenvolvimento de componentes do Sistema Tugsys da Wilson,Sons, entre eles Inspeção Sanitária, Rebocagem e Cartas Náuticas, utilizando NextJS/PrimereactUI;</li>
+        <li>Desenvolvimento de componentes do Sistema WS Connect da Wilson,Sons utilizando NextJs/MantineUI;</li>
+        <li>Desenvolvimento da API do Sistema de Informação sobre os Barramentos do Estado do RJ – Sisbar, para o Instituto Estadual do Ambiente do RJ (INEA), utilizando Django/DRF/Python;</li>
         <li>Desenvolvimento do Sistema de Gestão de Licenciamento Ambiental em Python/Django no Instituto Estadual do Ambiente - INEA-RJ;</li>
         <li>Desenvolvimento do Sistema do Programa Estadual de Autocontrole de Efluentes Líquidos - Procon Água, no Instituto Estadual do Ambiente - INEA-RJ;</li>
         <li>Programação em Python, Django, HTML, CSS e Javascript.</li>

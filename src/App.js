@@ -55,11 +55,12 @@ function App() {
               Sobre mim:  
             </h3>
             <p>
-              Tenho 54 anos, Trekker de carteirinha, gosto de filmes e séries bem como de um choppinho com os amigos! 
+              Tenho 55 anos, Trekker de carteirinha, gosto de filmes e séries bem como de um choppinho com os amigos! 
             </p>
             <p>
               Apaixonado por tecnologia, curioso e em busca de novos desafios,
-              após a conclusão do curso de Desenvolvedor Web Full Stack considero-me
+              após a conclusão do curso de Desenvolvedor Web Full Stack, ter trabalhado profissionalmente
+              em projetos fullstack, frontend e backend, considero-me
               pronto para contribuir nesta área tão promissora e presente
               na vida de todos.
             </p>  
@@ -122,8 +123,8 @@ function App() {
             <h2>Projetos</h2>
             <div id="projects-container">
               <Lig4App />
-              <SpaceNews />
-              <Legends />
+              {/* <SpaceNews /> */}
+              {/* <Legends /> */}
               <Shop />
               <VintageRentals />
               <CarRentals />
